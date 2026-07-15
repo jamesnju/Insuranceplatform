@@ -48,7 +48,7 @@ export default function Sidebar() {
     const roleSpecificItems: Record<string, any[]> = {
       customer: [
         { name: 'My Assets', href: '/customer/assets', icon: FiBox },
-        { name: 'Add Asset', href: '/customer/add-asset', icon: FiFileText },
+        { name: 'Add Asset', href: '/customer/addasset', icon: FiFileText },
         { name: 'Quotations', href: '/customer/quotations', icon: FiTrendingUp },
         { name: 'My Policies', href: '/customer/policies', icon: FiShield },
         { name: 'Claims', href: '/customer/claims', icon: FiClipboard },
